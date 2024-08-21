@@ -1,6 +1,6 @@
 <html>
 <head>
-	<title>IdleFleet</title>
+	<title>Kingsmarch</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="/css/app.css">
 	<link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png">
@@ -13,24 +13,24 @@
 </head>
 
 <body>
-<h2>IdleFleet Iteration 1.06</h2>
+<h2>Kingsmarch v0.01</h2>
 
 <div x-data="app" x-cloak>
 	<p>
-		Total Fleet Size: <span x-text="fleetSize"></span> (Rank: <span x-text="rank"></span>)<br/>
+		Total Fleet Size: <span x-text="fleetSize"></span> (Tujen Level: <span x-text="rank"></span>)<br/>
 		<span title="Represents ships at home ready to be sent out.">Ships Available to Send: <span x-text="numberFormat(numAvailableShips)"></span></span><br/>
 		<span title="Reports when the soonest ship return time is.">Next Ship Returns In: <span x-text="nextShipReturnTime"></span></span><br/>
-		Credits: <span x-text="numberFormat(credits)"></span><br/>
-		<span x-show="cepsAllowed" title="Average credits earned (or lost) over the past 10 seconds.">CEPS: <span x-text="numberFormat(ceps)"></span><br/></span>
+		Gold: <span x-text="numberFormat(gold)"></span><br/>
+		<span x-show="cepsAllowed" title="Average gold earned (or lost) over the past 10 seconds.">CEPS: <span x-text="numberFormat(ceps)"></span><br/></span>
 		<span x-show="mercantileAllowed" title="Represents how well your ships will trade and earn money.">Mercantile Skill: <span x-text="mercantileSkill"></span><br/></span>
 		<span x-show="shipSpeedAllowed" title="Represents how much faster your ships travel.">Ship Speed Boost: <span x-text="shipSpeed"></span><br/></span>
 	</p>
 
 	<p>
 		<button @click="sendShips" :disabled="!shipsAvailable">Send Ship(s)</button> 
-		<button @click="buyShip(1)" :disabled="!canBuyShip">Buy Ship: <span x-text="numberFormat(newShipCost)"></span> credits</button>
-		<button @click="buyShip(10)" x-show="buy10XShipAllowed" :disabled="!canBuy10Ship">Buy 10X Ships: <span x-text="numberFormat(new10ShipCost)"></span> credits</button>
-		<button @click="buyShip(100)" x-show="buy100XShipAllowed" :disabled="!canBuy100Ship">Buy 100X Ships: <span x-text="numberFormat(new100ShipCost)"></span> credits</button>
+		<button @click="buyShip(1)" :disabled="!canBuyShip">Buy Ship: <span x-text="numberFormat(newShipCost)"></span> gold</button>
+		<button @click="buyShip(10)" x-show="buy10XShipAllowed" :disabled="!canBuy10Ship">Buy 10X Ships: <span x-text="numberFormat(new10ShipCost)"></span> gold</button>
+		<button @click="buyShip(100)" x-show="buy100XShipAllowed" :disabled="!canBuy100Ship">Buy 100X Ships: <span x-text="numberFormat(new100ShipCost)"></span> gold</button>
 		<button @click="buyMercantile" x-show="mercantileAllowed" :disabled="!canBuyMercantile">Improve Mercantile Skill: <span x-text="numberFormat(newMercantileCost)"></span></button>
 		<button @click="buyShipSpeed" x-show="shipSpeedAllowed" :disabled="!canBuyShipSpeed">Improve Ship Speed: <span x-text="numberFormat(newShipSpeedCost)"></span></button>
 		<button @click="enableAutoShip" x-show="autoShipAllowed" title="If enabled, this will periodically send out available ships."><span x-show="autoShip">Auto Ship Enabled</span><span x-show="!autoShip">Auto Ship Disabled</span></button>
@@ -47,7 +47,10 @@
 
 	<footer>
 	<p>
-	Created by <a href="https://www.raymondcamden.com" target="_new">Raymond Camden</a> - <a href="https://github.com/cfjedimaster/IdleFleet" target="_new">github repo</a>
+	Modified by <a href="https://www.david-gao.com" target="_new">David Gao</a>
+	</p>
+	<p>
+	Original by <a href="https://www.raymondcamden.com" target="_new">Raymond Camden</a>
 	</p>
 	</footer>
 
