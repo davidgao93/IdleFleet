@@ -1,39 +1,39 @@
 {
 	"news":[
-		"Starbrand announces new line of eco-friendly spaceships.",
-		"Economic reports continue to boom - stockholders happy!",
-		"Most popular social network promises edit support soon.",
-		"In a recent survey, ship captains report general satisfaction with job.",
-		"In a recent survey, ship captains report general dissatisfaction with job.",
-		"Billions reeling as social media star switches to new toilet paper brand.",
-		"Galaxy-wide Outlook service down - please use tin cans in the meantime."
+		"The town of Kingsmarch celebrates the opening of a new trade route to the Forbidden Forest.",
+		"Economic reports show a surge in currency exchange - merchants rejoice!",
+		"The popular social network, ExileBook, announces upcoming support for profile customization.",
+		"In a recent survey, adventurers report general satisfaction with their exploration journey in Wraeclast.",
+		"In a recent survey, adventurers report general dissatisfaction with the lack of rare loot in Wraeclast.",
+		"Chaos ensues as a renowned exile switches allegiance to a rival faction.",
+		"Ravaged by storms, the communication network in Wraeclast experiences temporary disruptions."
 	],
 	"moneyWon":[
-		"A long-lost aunt left you an inheritance.",
-		"You got a refund from the Intergalatic Revenue Service.",
-		"You won the lottery!",
-		"You found a stash of credits in the back of one of your ships.",
-		"You won a lawsuit against another trader.",
-		"You came in first place in a game show."
+		"You stumble upon a hidden cache of ancient treasures.",
+		"You receive a generous reward for completing a difficult quest.",
+		"You strike it big in the Exile Lottery!",
+		"Exploring deep dungeons, you discover a chest filled with valuable artifacts.",
+		"You successfully negotiate a lucrative trade deal with a powerful merchant.",
+		"You emerge victorious in a gladiatorial arena, winning a substantial prize."
 	],
 	"moneyLost":[
-		"You got a tax bill from the Intergalatic Revenue Service.",
-		"One of your ships needed repairs.",
-		"You lost credits betting on space horses.",
-		"You lost credits to email spammers.",
-		"Gas prices spiked retroactively.",
-		"You lost a lawsuit against another trader."
+		"You receive a hefty tax bill from the Templar Revenue Service.",
+		"One of your ships requires extensive repairs after a treacherous encounter with a corrupted beast.",
+		"You lose a significant amount of currency while gambling on the outcome of ancient trials.",
+		"You fall victim to a phishing scam, losing a substantial sum to cunning tricksters.",
+		"The cost of essential resources skyrockets, leaving you with a massive bill.",
+		"You lose a legal battle against a rival trader, resulting in a significant financial setback."
 	],
 	"shipWon":[
-		"Congratulations! You won a new ship on a game show!",
-		"A long-lost uncle left you his ship.",
-		"You found an abandoned ship and add it to your fleet.",
-		"You sued another trader for their ship and won it!"
+		"Congratulations! You win a legendary ship in a grand tournament!",
+		"A long-lost relative bequeaths you their powerful vessel.",
+		"You stumble upon a forsaken shipwreck and claim it as your own.",
+		"You successfully outmaneuver and seize a rival trader's ship as a prize of victory!"
 	],
 	"shipLost":[
-		"A ship was lost to a black hole.",
-		"Pirates blew up one of your ships!",
-		"Pirates stole one of your ships!",
-		"Space monkeys destroy one of your ships!"
+		"A ship is lost in the treacherous waters of the Vaal Ruins.",
+		"Pirates launch a devastating attack, obliterating one of your ships!",
+		"Pirates raid your fleet, making off with one of your prized vessels!",
+		"Your ships fall victim to a mischievous band of monkey-like creatures, leaving destruction in their wake!"
 	]
 }

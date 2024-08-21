@@ -36,14 +36,14 @@ export const CEPS_DURATION = 10;
 
 // in theory, 1B for max
 export const RANKS = [
-	"Novice", 
-	"Spaceperson Apprentice", 
-	"Ordinary Spaceperson",
-	"Able Spaceperson",
-	"Bosun",
-	"Deck Cadet", 
-	"Third Mate",
-	"Second Mate", 
-	"Chief Mate",
-	"Captain"
+	"Novice Shipmaster",
+	"Kalguur Apprentice Shipmaster",
+	"Ordinary Kalguur Shipmaster",
+	"Able Kalguur Shipmaster",
+	"Kalguurian Dockmaster",
+	"Kalguurian Expert Shipmaster",
+	"Kalguurian Shipwright",
+	"Second Mate Shipmaster",
+	"Chief Mate Shipmaster",
+	"Captain Shipmaster"
 ];
