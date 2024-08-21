@@ -50,7 +50,7 @@ document.addEventListener('alpine:init', () => {
             ship.available = true;
             ship.returnTime = null;
             let moneyEarned = this.earnMoney();
-            this.addLog(`${ship.name} returned and earned ${this.numberFormat(moneyEarned)} credits.`);
+            this.addLog(`${ship.name} returned and earned ${this.numberFormat(moneyEarned)} gold.`);
             this.credits += moneyEarned;
           } else if (ship.returnTime < nextShipResult) {
               nextShipResult = ship.returnTime;
