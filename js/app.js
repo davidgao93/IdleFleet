@@ -177,14 +177,14 @@ document.addEventListener('alpine:init', () => {
 
       if(whatHappened < 40) {
         let moneyWon = Math.floor(this.credits * (getRandomInt(10, 70)/100));
-        let msg = this.messages.moneyWon[getRandomInt(0, this.messages.moneyWon.length)] + ` Gain ${this.numberFormat(moneyWon)} credits!`;
+        let msg = this.messages.moneyWon[getRandomInt(0, this.messages.moneyWon.length)] + ` Gain ${this.numberFormat(moneyWon)} gold!`;
         this.credits += moneyWon;
         this.addLog(`<strong class="good">${msg}</strong>`);
       } else if(whatHappened < 80) {
         // if money is real low, do nothing
         if(this.credits < 500) return;
         let moneyLost = Math.floor(this.credits * (getRandomInt(5, 30)/100));
-        let msg = this.messages.moneyLost[getRandomInt(0, this.messages.moneyLost.length)] + ` Lose ${this.numberFormat(moneyLost)} credits.`;
+        let msg = this.messages.moneyLost[getRandomInt(0, this.messages.moneyLost.length)] + ` Lose ${this.numberFormat(moneyLost)} gold.`;
         this.credits -= moneyLost;
         this.addLog(`<strong class="bad">${msg}</strong>`);
       } else if(whatHappened < 92) {
